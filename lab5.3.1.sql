@@ -1,5 +1,5 @@
 ﻿/* Chạy dòng này để Tạo sp_ThemPhongBanMoi */
-alter  proc sp_ThemPhongBanMoi
+create  proc sp_ThemPhongBanMoi
 	@TENPHG varchar (15),
 	@MAPHG int,
 	@TRPHG nvarchar(9),
@@ -42,4 +42,4 @@ begin
 end;
 /* Chạy để thêm phòng ban mới */
 exec [dbo].[sp_ThemPhongBanMoi] 'CNTT',10,'005','12-12-2020'
-select *from PHONGBAN
+
