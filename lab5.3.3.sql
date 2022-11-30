@@ -33,4 +33,4 @@ begin
 		(@HONV,@TENLOT,@TENNV,@MANV,@NGSINH,@DCHI,@PHAI,@LUONG,@MA_NQL,@PHG);
 end;
 
- exec [dbo].[ThemNhanVien] N'Nguyễn ', N'Văn ',N'Quyết','030','1-11-1998',N'Bình Thuận','Nam ',300000,6;
+exec [dbo].[sp_ThemNhanVien] N'Nguyễn',N'Văn',N'Quyết','030','1-11-1998',N'Bình Thuận','Nam',300000,6;
